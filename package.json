@@ -15,7 +15,7 @@
     "start": "react-scripts start",
     "remove-legal": "find .edge/storage/storybook/ -name \"*.LEGAL.txt\" -type f -exec rm {} \\;",
     "clear-edge": "rm -rf .edge",
-    "build": "npm run clear-edge && react-scripts build && npm run build-storybook && npm run remove-legal",
+    "build": "npm run clear-edge && react-scripts build && npm run build-storybook",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
